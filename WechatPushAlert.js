@@ -22,7 +22,7 @@ function sleep(milliseconds) {
 (function() {
     'use strict';
     // 检查页面内是否有群发按钮
-    if (document.getElementById('send_btn_main') != null) {
+    if (document.getElementById('send_btn_main') !== null) {
         sleep(2000);
         alert("我们的文章原创标了么？");
         sleep(800);
